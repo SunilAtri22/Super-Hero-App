@@ -1,0 +1,79 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  text-align : center;
+}
+html{
+  background : url("superbg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px){
+  html{
+    width: 100%;
+  }
+}
+
+#intro{
+  font-size: 18px;
+}
+
+#searchInput{
+  font-size : 15px;
+  padding : 12px;
+  border : 1px solid  #00ffff;
+  outline : none;
+  border-radius : 3px;
+  background:  #ccffff;
+}
+
+button{
+  padding : 10px 15px;
+  margin-top : 10px;
+  cursor : pointer;
+  background : #ccffff;
+  border : none;
+  border-radius : 3px;
+}
+
+button:hover{
+   background : #80ffff;
+}
+
+
+.fixed-header{
+  position: absolute;
+  top : 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  overflow: hidden;
+  background:#4dffff;
+  
+}
+.container{
+  position: absolute;
+  top : 60px;
+  bottom : 40px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.fixed-footer{
+  position: absolute;
+  bottom : 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  overflow: hidden;
+  background:#4dffff;
+}
+
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
